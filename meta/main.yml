@@ -1,0 +1,16 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: ericmdev
+  description: Composer PHP Dependency Manager.
+  company: ""
+  license: "license (MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: EL
+    versions:
+    - all
+  categories:
+    - packaging
+    - web
