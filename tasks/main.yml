@@ -9,7 +9,7 @@
   command: >
     php composer-installer.php
     chdir=/tmp
-    creates=/usr/local/bin/composer
+    creates={{ composer_path }}
 
 - name: Move Composer into globally-accessible location.
   shell: >
